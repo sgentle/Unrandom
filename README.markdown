@@ -1,6 +1,6 @@
-= Unrandom - a repeatable random number generator
+# Unrandom - a repeatable random number generator
 
-== Description
+## Description
 
 You know how other languages have an option you can pass to the random number generator to set its seed? You know, so that you have repeatable random numbers for testing. Well, javascript doesn't. But it does have Unrandom!
 
@@ -8,7 +8,7 @@ Unrandom will save your random numbers to a list as it's run, and replay them ba
 
 Unrandom is written in coffeescript, but pre-compiled to javascript for your convenience.
 
-== Usage
+## Usage
 
 In NodeJS:
 	var util = require('util');
